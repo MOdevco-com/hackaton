@@ -1,6 +1,5 @@
-import { Badge, Box, Text, VStack, HStack, Divider, Heading, OrderedList, ListItem } from '@chakra-ui/react';
+import { Badge, Box,  Heading, OrderedList, ListItem } from '@chakra-ui/react';
 import React from 'react';
-import ScoreCard from './scoreCard';
 import {
   Accordion,
   AccordionItem,
