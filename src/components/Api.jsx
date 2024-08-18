@@ -14,7 +14,7 @@ import {
     BreadcrumbSeparator,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { im, im2, jw } from '../assets';
+import { im, im2, jw, token } from '../assets';
 export default function Api() {
     return (
         <Box display={'flex'} flexDirection={'column'} gap={10}>
@@ -108,7 +108,7 @@ export default function Api() {
                                     <br />
                                     <Box>
                                         <Text>Keladigan ma'lumot</Text>
-                                        <Text>Token (JWT): <span style={{color: 'red'}}>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9</span>. <span style={{color: 'pink'}}>eyJ1c2VyIjoiNjZiZjhkZDQ0YTAyOWJiNDNlNDJlNmU0IiwiaWF0IjoxNzIzODk5MDQ4LCJleHAiOjE3MjY0OTEwNDh9</span>. <span style={{color: 'aqua'}}>mRecpV1euFGQS99UD1i1qHmlXLk3pSAc_51mCxjvCho</span></Text>
+                                        <Text>Token (JWT): <span style={{ color: 'red' }}>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9</span>. <span style={{ color: 'pink' }}>eyJ1c2VyIjoiNjZiZjhkZDQ0YTAyOWJiNDNlNDJlNmU0IiwiaWF0IjoxNzIzODk5MDQ4LCJleHAiOjE3MjY0OTEwNDh9</span>. <span style={{ color: 'aqua' }}>mRecpV1euFGQS99UD1i1qHmlXLk3pSAc_51mCxjvCho</span></Text>
                                         <br />
 
                                         <Text>Token localstorage ga saqlanadi</Text>
@@ -234,6 +234,44 @@ export default function Api() {
                                     <Text>Keladigan ma'lumotlar</Text>
                                     <Box color={'orange'}>
                                         <Img src={im2}></Img>
+                                    </Box>
+                                </Box>
+                            </AccordionPanel>
+
+
+                        </AccordionItem>
+
+                    </Accordion>
+                </Box>
+            </Box>
+
+            <Box fontSize={'20px'} display={'flex'} flexDirection={'column'} gap={5}>
+                <Box><Text>Token bo'yicha foidalanuvchini olish</Text></Box>
+
+                <Box>
+                    <Accordion allowToggle display={'flex'} flexDirection={'column'} gap={3}>
+
+                        <AccordionItem border={'1px'} borderRadius={'8px'}>
+                            <h2>
+                                <AccordionButton fontWeight={'bold'}>
+                                    <Box as='span' display={'flex'} justifyContent={'space-between'} w={'100%'} alignItems={'center'}>
+                                        <Box color={'blue'}> /api/user/get-one</Box>
+                                        <Box color={'GREEN'} >
+                                            GET
+                                        </Box>
+                                    </Box>
+                                </AccordionButton>
+                            </h2>
+                            <AccordionPanel pb={4}>
+                                <Box>
+                                    <Text>So'rov jo'natiladi</Text>
+                                    <Text>Headerda token bo'lishi kerak</Text>
+                                </Box>
+                                <br />
+                                <Box>
+                                    <Text>Keladigan ma'lumotlar</Text>
+                                    <Box color={'orange'}>
+                                        <Img src={token}></Img>
                                     </Box>
                                 </Box>
                             </AccordionPanel>

@@ -22,31 +22,70 @@ export default function Result() {
       <Box>
         <Text>Verstka uchun</Text><br />
         <TableContainer>
-          <Table size='sm'>
-            <Thead>
-              <Tr>
-                <Th>Komanda nomi</Th>
-                <Th>into</Th>
-                <Th>multiply by</Th>
-              </Tr>
-            </Thead>
-            <Tbody>
-              <Tr>
-                <Td>inches</Td>
-                <Td>millimetres (mm)</Td>
-                <Td isNumeric>25.4</Td>
-              </Tr>
-              <Tr>
-                <Td>feet</Td>
-                <Td>centimetres (cm)</Td>
-                <Td isNumeric>30.48</Td>
-              </Tr>
-              <Tr>
-                <Td>yards</Td>
-                <Td>metres (m)</Td>
-                <Td isNumeric>0.91444</Td>
-              </Tr>
-            </Tbody>
+          <Table size='sm' >
+            <Tr>
+              <Th>Komanda nomi</Th>
+              <Th>O'xshashlik</Th>
+              <Th>Contanier</Th>
+              <Th>Sementiks</Th>
+              <Th>Ranglar</Th>
+              <Th>Media</Th>
+              <Th>Hover&Active</Th>
+              <Th>Komentlar</Th>
+              <Th>Github&Netlify</Th>
+              <Th>Jami ball</Th>
+            </Tr>
+            <Tr>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+            </Tr>
+          </Table>
+        </TableContainer>
+      </Box>
+      <Box>
+        <Text>Api loyiha uchun</Text><br />
+        <TableContainer>
+          <Table size='sm' >
+            <Tr>
+              <Th>Komanda nomi</Th>
+              <Th>O'xshashlik</Th>
+              <Th>Contanier</Th>
+              <Th>Sementiks</Th>
+              <Th>Ranglar</Th>
+              <Th>Media</Th>
+              <Th>Hover&Active</Th>
+              <Th>Komentlar</Th>
+              <Th>Github&Netlify</Th>
+              <Th>Api to'liq holda</Th>
+              <Th>Api metodlar to'liq holda</Th>
+              <Th>Validatsiya</Th>
+              <Th>Loading</Th>
+              <Th>Jami ball</Th>
+            </Tr>
+            <Tr>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+            </Tr>
           </Table>
         </TableContainer>
       </Box>
