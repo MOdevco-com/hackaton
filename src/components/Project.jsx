@@ -27,7 +27,7 @@ export default function Project() {
                             mb="4"
                         />
                         <Stack spacing="3">
-                            <Heading size="md">Versta</Heading>
+                            <Heading size="md">Verstka</Heading>
                             <Text>
                                 Ushbu figma faqat verstka qiladiganlar uchun mahsus tayyorlangan.
                             </Text>
