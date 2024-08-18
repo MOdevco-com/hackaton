@@ -4,6 +4,7 @@ import Project from './Project'
 import Api from './Api'
 import Score from './Score/Score'
 import Result from './Result'
+import Reklama from './reklama'
 
 export default function Header() {
     return (
@@ -23,6 +24,7 @@ export default function Header() {
                         <Tab>Api</Tab>
                         <Tab>Ball</Tab>
                         <Tab>Natija</Tab>
+                        <Tab>Reklama</Tab>
                     </TabList>
                     <TabPanels>
                         <TabPanel>
@@ -36,6 +38,9 @@ export default function Header() {
                         </TabPanel>
                         <TabPanel>
                             <Result />
+                        </TabPanel>
+                        <TabPanel>
+                            <Reklama />
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
