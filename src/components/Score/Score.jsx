@@ -16,7 +16,7 @@ export default function Score() {
 
       <Box boxShadow='2xl' mt={10}>
         <Box>
-          <Accordion allowToggle>
+          {/* <Accordion allowToggle>
             <AccordionItem>
               <h2>
                 <AccordionButton>
@@ -80,7 +80,7 @@ export default function Score() {
               </AccordionPanel>
             </AccordionItem>
 
-          </Accordion>
+          </Accordion> */}
         </Box>
         <Box>
           <Accordion allowToggle>

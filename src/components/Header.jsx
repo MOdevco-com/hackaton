@@ -11,7 +11,7 @@ export default function Header() {
         <Box>
             {/* Navbar Top  */}
             <Container display='flex' alignItems='center' justifyContent='space-between' maxW='1200px'>
-                <Text fontSize='20px' userSelect='none' fontWeight='600'>QuvaAsk</Text>
+                <Text fontSize='20px' userSelect='none' fontWeight='600'>MOdevco</Text>
 
                 <Image src='https://www.torch.ox.ac.uk/sites/default/files/torch/images/event/hackathon_logo.jpg' width='120px' />
             </Container>
@@ -23,7 +23,7 @@ export default function Header() {
                         <Tab>Loyiha</Tab>
                         <Tab>Api</Tab>
                         <Tab>Ball</Tab>
-                        <Tab>Natija</Tab>
+                        {/* <Tab>Natija</Tab> */}
                         <Tab>Reklama</Tab>
                     </TabList>
                     <TabPanels>
@@ -36,9 +36,9 @@ export default function Header() {
                         <TabPanel>
                             <Score />
                         </TabPanel>
-                        <TabPanel>
+                        {/* <TabPanel>
                             <Result />
-                        </TabPanel>
+                        </TabPanel> */}
                         <TabPanel>
                             <Reklama />
                         </TabPanel>

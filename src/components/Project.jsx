@@ -18,7 +18,7 @@ export default function Project() {
         <Box px="20px" display='flex' gap={'30px'} alignItems='flex-start' justifyContent='flex-start' flexDirection={'column'}>
             <Heading>Jamolar uchun loyiha</Heading>
             <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing="20px">
-                <Card maxW="350px" boxShadow="xl" borderRadius="lg" overflow="hidden">
+                {/* <Card maxW="350px" boxShadow="xl" borderRadius="lg" overflow="hidden">
                     <CardBody>
                         <Image
                             src={img}
@@ -41,7 +41,7 @@ export default function Project() {
 
                         </a>
                     </CardFooter>
-                </Card>
+                </Card> */}
 
                 <Card maxW="350px" boxShadow="xl" borderRadius="lg" overflow="hidden">
                     <CardBody>
