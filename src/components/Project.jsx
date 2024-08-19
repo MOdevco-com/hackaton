@@ -11,7 +11,7 @@ import {
     SimpleGrid,
 } from '@chakra-ui/react';
 import React from 'react';
-import { img } from '../assets';
+import { img, logo } from '../assets';
 
 export default function Project() {
     return (
@@ -46,7 +46,7 @@ export default function Project() {
                 <Card maxW="350px" boxShadow="xl" borderRadius="lg" overflow="hidden">
                     <CardBody>
                         <Image
-                            src={img}
+                            src={logo}
                             alt="Green double couch with wooden legs"
                             borderRadius="md"
                             mb="4"

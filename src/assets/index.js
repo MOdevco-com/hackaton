@@ -4,4 +4,5 @@ import im2 from "./im2.jpg";
 import jw from "./jw.jpg";
 import imgBot from "./imgBot.jpg";
 import token from "./token.jpg";
-export { img , im,im2 , jw ,imgBot , token};
+import logo from "./logo.jpg";
+export { img , im,im2 , jw ,imgBot , token ,logo};
