@@ -162,7 +162,7 @@ export default function Api() {
 
 
             <Box fontSize={'20px'} display={'flex'} flexDirection={'column'} gap={5}>
-                <Box><Text>Mahsulot qo'shish va olish</Text></Box>
+                <Box><Text>Mahsulot qo'shish , olish va o'chirish</Text></Box>
 
                 <Box>
                     <Accordion allowToggle display={'flex'} flexDirection={'column'} gap={3}>
@@ -236,6 +236,32 @@ export default function Api() {
                                         <Img src={im2}></Img>
                                     </Box>
                                 </Box>
+                            </AccordionPanel>
+
+
+                        </AccordionItem>
+                        <AccordionItem border={'1px'} borderRadius={'8px'}>
+                            <h2>
+                                <AccordionButton fontWeight={'bold'}>
+                                    <Box as='span' display={'flex'} justifyContent={'space-between'} w={'100%'} alignItems={'center'}>
+                                        <Box color={'blue'}> /api/product/delete/:id</Box>
+                                        <Box color={'RED'} >
+                                            DELETE
+                                        </Box>
+                                    </Box>
+                                </AccordionButton>
+                            </h2>
+                            <AccordionPanel pb={4}>
+                                <Box>
+                                    <Text>:id o'rniga datani id si berilasi </Text>
+                                </Box>
+                                {/* <br /> */}
+                                {/* <Box>
+                                    <Text>Keladigan ma'lumotlar</Text>
+                                    <Box color={'orange'}>
+                                        <Img src={im2}></Img>
+                                    </Box>
+                                </Box> */}
                             </AccordionPanel>
 
 
